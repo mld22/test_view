@@ -34,6 +34,10 @@ background-color:rgb(224, 224, 224);
 cursor: progress;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .text {
 padding: 10px 10px;
 margin-bottom: 10px;
