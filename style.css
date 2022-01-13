@@ -31,6 +31,7 @@ background-color: rgba(255, 255, 255, 0.315);
 
 .btn:focus {
 background-color:rgb(224, 224, 224);
+cursor: progress;
 }
 
 .text {
@@ -92,6 +93,5 @@ outline: none;
 }
 
 textarea:hover {
-border: 1px solid rgba(128, 128, 128, 0.315);
-background-color: rgba(255, 255, 255, 0.562);
+cursor: inherit;
 }
