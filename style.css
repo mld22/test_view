@@ -1,16 +1,20 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
+margin: 0;
+padding: 0;
+}
 
-  .container {
-    max-width: 900px;
-    margin   : 0 auto;
+body {
+background-color: rgba(223, 217, 217, 0.219);
+}
+.container {
+max-width: 900px;
+margin : 0 auto;
 }
 
 .top {
-  padding: 20px;
-  background-color: rgba(223, 217, 217, 0.555) ;
+padding: 30px 0 30px 0;
+margin-top: 30px;
+background-color: rgba(223, 217, 217, 0.555);
 }
 .form {
 display: flex;
@@ -18,25 +22,76 @@ justify-content: space-evenly;
 }
 
 .btn {
-  padding: 0 30px;
-  border-radius: 30px;
-  border: none;
-  color: rgb(92, 92, 92) ;
+padding: 0 30px;
+border-radius: 30px;
+border: none;
+color: rgb(92, 92, 92);
+background-color: rgba(255, 255, 255, 0.315);
+}
+
+.btn:focus {
+background-color:rgb(224, 224, 224);
 }
 
 .text {
 padding: 10px 10px;
 margin-bottom: 10px;
 text-align: center;
-color: rgb(92, 92, 92) ;
+color: rgb(92, 92, 92);
 background-color: rgba(255, 255, 255, 0.315);
 }
 
 .field {
 border-radius: 15px;
-padding: 5px 10px;
+padding: 10px 10px;
 border: none;
 background-color: rgb(245, 245, 245);
+
 }
 
+.field:focus {
+outline: 1px solid rgb(92, 92, 92);
+background-color: rgba(255, 255, 255, 0.562);
+}
 
+input[type="number"] {
+
+-moz-appearance: textfield;
+
+-webkit-appearance: textfield;
+
+appearance: textfield;
+
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+
+input[type="number"]::-webkit-inner-spin-button {
+
+display: none;
+
+}
+
+.result {
+margin-top: 30px;
+margin-bottom: 30px;
+padding: 30px 0 30px 0 ;
+background-color: rgba(223, 217, 217, 0.555) ;
+display: flex;
+justify-content: space-evenly;
+}
+
+textarea {
+resize: vertical;
+background-color: rgba(255, 255, 255, 0.568);
+border: none;
+}
+
+textarea:focus {
+outline: none;
+}
+
+textarea:hover {
+border: 1px solid rgba(128, 128, 128, 0.315);
+background-color: rgba(255, 255, 255, 0.562);
+}

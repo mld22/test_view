@@ -13,22 +13,33 @@
     <form class="form" action="#">
     <div class="form_elements">
     <p class="text">Код сценария</p>
-      <input class="field" type="text" required>
+      <input class="field" type="text" min="0" required>
     </div>
     <div class="form_elements">
       <p class="text">Версия сценария</p>
-      <input class="field" type="number" required>
+      <input class="field" type="number" min="0" required>
     </div>
     <div class="form_elements">
       <p class="text">Идентификатор ноды</p>
-      <input class="field" type="number" required>
+      <input class="field" type="number" min="0" required>
     </div>
     <input class="btn" type="submit" value="Запуск">
     </form>
   </div>
   <div class="result">
+<div class="result-col">
+  <p class="text">Финальная фраза</p>
+  <textarea id="" cols="35" rows="35" readonly></textarea>
+</div>
+<div class="result-col">
+  <p class="text">Системные сообщения</p>
+  <textarea id="" cols="35" rows="35" readonly></textarea>
+</div>
+<div class="result-col">
+  <p class="text">Ответ войсбота</p>
+  <textarea id="" cols="35" rows="35" readonly ></textarea>
+</div>
 
-    
   </div>
 </div>
 </body>
